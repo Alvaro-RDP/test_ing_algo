@@ -1,2 +1,27 @@
-local_paths
-data
+# Useless mypy and ruff stuff:
+.mypy_cache
+.ruff_cache
+
+# Ignore all files in the build/ directory
+build/
+
+# Ignore all files in the dist/ directory
+dist/
+
+# Ignore all files in the .venv/ directory
+.venv/
+
+# Ignore all files in the .vscode/ directory
+.vscode/
+
+# Large data files
+data/
+
+# Private information
+local_paths/
+
+# Python stuff:
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
